@@ -1,0 +1,25 @@
+[tool]
+[tool.poetry]
+name = "time-utils"
+version = "0.1.0"
+description = "A collection of time-related utility functions and decorators."
+license = "MIT"
+authors = ["Tan Pinxi <tpinxi@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/FizzyAgent/time-utils"
+keywords = ["time", "utility"]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3",
+]
+packages = [{ include = "time_utils" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[build-system]
+requires = ["poetry-core", "twine"]
+build-backend = "poetry.core.masonry.api"
