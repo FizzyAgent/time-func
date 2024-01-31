@@ -1,6 +1,6 @@
 [tool]
 [tool.poetry]
-name = "time-utils"
+name = "time-func"
 version = "0.1.0"
 description = "A collection of time-related utility functions and decorators."
 license = "MIT"
@@ -15,7 +15,7 @@ classifiers = [
     "Natural Language :: English",
     "Programming Language :: Python :: 3",
 ]
-packages = [{ include = "time_utils" }]
+packages = [{ include = "time_func" }]
 
 [tool.poetry.dependencies]
 python = "^3.10"

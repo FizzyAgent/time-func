@@ -3,7 +3,7 @@ from typing import Callable
 
 import pytest
 
-from time_utils import timeout
+from time_func import timeout
 
 
 def get_timeout_sleep(x: float) -> Callable[[float], float]:

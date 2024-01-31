@@ -1,1 +1,1 @@
-# Time Utilities
+# Time Functions
